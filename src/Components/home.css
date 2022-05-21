@@ -1,0 +1,190 @@
+.heading{
+  margin-top: 0px;
+  background-color: black;
+  border-radius: 30px;
+  border: 10px;
+  border-style: groove;
+  color: white;
+  text-align: center;
+}
+
+.inst:hover{
+  background-color: black;
+  color: white;
+}
+
+.start{
+    background-color:black;
+    height: 100px;
+    width: 200px;
+    border-radius: 30%;
+    margin-top: 100px;
+    float: right;
+    margin-right: 20%;
+    margin-left: 50px;
+  }
+  
+  .start:hover{
+    border-color:white;
+    border-width: 10px;
+  }
+  
+  .text{
+    color: white;
+  }
+  
+  .App-logo {
+    height: 500px;
+    width: 500px;
+    pointer-events: none;
+    margin-left: 30%;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+@media screen and (max-width:768px){
+  .heading{
+    margin-top: 0px;
+    background-color: black;
+    border-radius: 30px;
+    border: 10px;
+    border-style: groove;
+    color: white;
+    text-align: center;
+    height: 10%px;
+  }
+  
+  .inst{
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 200px;
+    text-align: left;
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    font-size: 10px;
+  }
+  
+  .start{
+      height: 100px;
+      width: 100px;
+      background-color:black;
+      border-radius: 30%;
+      float: right;
+      border-color:white;
+      border-width: 5px;
+    }
+    
+    .text{
+      color: white;
+    }
+    
+    .App-logo {
+      height: 300px;
+      width: 300px;
+      pointer-events: none;
+      margin-left: 10%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .heading{
+    margin-top: 0px;
+    background-color: black;
+    border-radius: 30px;
+    border: 10px;
+    border-style: groove;
+    color: white;
+    text-align: center;
+    height: 10%;
+  }
+  .inst{
+    text-align: left;
+    height: 300px;
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    font-size: 25px;
+  }
+  
+  .start{
+      height: 100px;
+      width: 200px;
+      background-color:black;
+      border-radius: 30%;
+      float: right;
+      border-color:white;
+      border-width: 5px;
+    }
+    
+    .text{
+      color: white;
+    }
+    
+    .App-logo {
+      height: 450px;
+      width: 450px;
+      pointer-events: none;
+      margin-left: 20%;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1280px){
+  .heading{
+    padding-top: 5%;
+    margin-top: 0px;
+    background-color: black;
+    border-radius: 30px;
+    border: 10px;
+    border-style: groove;
+    color: white;
+    text-align: center;
+    height: 10%;
+    width: 1000px;
+  }
+  
+  .inst{
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    font-size: medium;
+  }
+  
+  .start{
+      height: 90px;
+      width: 180px;
+      margin: 10% 10% 0px 0px;
+      background-color:black;
+      border-radius: 30%;
+      float: right;
+      border-color:white;
+      border-width: 5px;
+    }
+    
+    .text{
+      color: white;
+    }
+    
+    .App-logo {
+      height: 350px;
+      width: 350px;
+      pointer-events: none;
+      margin-left: 25%;
+    }
+}
+
+  

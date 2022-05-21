@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css';
-import Game from "./Components/Game";
-import Home from "./Components/Home";
+import Game from "./MediumComponents/Game";
+import Home from "./MediumComponents/Home";
 import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
 
-function App() {
+function MediumDevices() {
   return (
     <div className="App">
       <Router>
@@ -17,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default MediumDevices;

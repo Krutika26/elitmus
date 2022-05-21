@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css';
-import Game from "./Components/Game";
-import Home from "./Components/Home";
+import Game from "./LargeComponents/Game";
+import Home from "./LargeComponents/Home";
 import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
 
-function App() {
+function LargeDevices() {
   return (
     <div className="App">
       <Router>
@@ -17,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default LargeDevices;
